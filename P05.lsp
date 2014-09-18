@@ -1,3 +1,7 @@
+;;;  (*) Reverse a list.
+
+
+
 (defun my-reverse (x)
   (if (null x)
     nil

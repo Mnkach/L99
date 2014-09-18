@@ -1,3 +1,7 @@
+;;; (*) Find the number of elements of a list.
+
+
+
 (defun my-length (x)
   (cond ((null x) 0)
         (t (+ 1 (my-length (cdr x))))))
