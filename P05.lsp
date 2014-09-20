@@ -10,4 +10,4 @@
 (defun my-reverse-down (x y)
   (if (null x)
     y
-    (my-reverse-down (cdr x) (append (list (car x)) y))))
+    (my-reverse-down (cdr x) (cons (car x) y))))
